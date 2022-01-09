@@ -22,12 +22,13 @@ The program will communicate the output data in the form of four different combi
 
 
 Setting up the emulator:
-  GPIO18: Buzzer 
-  GPIO24: Red LED
-  GPIO25: Yellow LED
-  GPIO12: Green LED
-  GPIO16: Blue LED
-  Sensor: EMG
+	GPIO18: Buzzer 
+	GPIO24: Red LED
+	GPIO25: Yellow LED
+	GPIO12: Green LED
+	GPIO16: Blue LED
+	Sensor: EMG
+
 Note: You will notice that the yellow LED is on. This is because the device is still not connected
 
 
