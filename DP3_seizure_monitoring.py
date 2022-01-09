@@ -2125,11 +2125,6 @@ class RunThread(QtCore.QThread):
                         write_to_file(line, filename_1)
 
             
-            '''
-            ************************************************************
-            ***   Program Implementation - STUDENT CODE ENDS HERE!   ***
-            ************************************************************
-            '''
 
         except:
             (type, value, traceback) = sys.exc_info()
@@ -2139,21 +2134,7 @@ class RunThread(QtCore.QThread):
         self.is_running = False
         print('stopping thread...')
         self.terminate()
-        
-'''
-************************************************************
-***   Function Definitions - STUDENT CODE BEGINS HERE!   ***
-************************************************************
-Below this line is where you should DEFINE all functions
-    - Any output devices that are used in your functions
-      should be defined here as well
-    - PAY ATTENTION TO YOUR INDENTATIONS!!!!
-'''
-## Write your code below this line
-
-
-
-
+  
 #Import Libraries
 '''Note: datetime may have to be installed'''
 
@@ -2444,12 +2425,6 @@ def process_2():
             #This gives us the new average of the rolling averages in new alert_list.
             alert_average = list_average(alert_list) 
 
-
-'''
-************************************************************
-***   Function Definitions - STUDENT CODE ENDS HERE!   ***
-************************************************************
-'''
 
 
 if __name__ == "__main__":
