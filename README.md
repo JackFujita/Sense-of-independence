@@ -54,4 +54,4 @@ Test Cases:
 	
 This works with the wearable sensor created by Jack Fujita, Lara Al Barbarawi, Scott Berman and Brooke Mazur-Ng.
 
-![alt text](https://github.com/JackFujita/Sense-of-independence/blob/main/Images/Right_ortho.jpg)
+![alt text](https://github.com/JackFujita/Sense-of-independence/blob/main/Images/Labelled.jpg)
