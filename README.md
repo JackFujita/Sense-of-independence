@@ -1,8 +1,7 @@
 # Sense-of-independence
+##### Jack Fujita and Lara Al Barbarawi
 
 Python code to be run on Rasperry Pi. Sets up virtual emulator and uses emulator funcitonality to simulate electromyography (EMG) to detect patient tonic and clonic seizures
-
-- Jack Fujita and Lara Al Barbarawi
 
 This computer program will be able to detect the type of seizure, length of seizure and time of seizure, in the presence of one, in infants.
 	- It will detect two main types of seizures; Clonic and Tonic.
