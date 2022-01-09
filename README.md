@@ -50,5 +50,5 @@ Test Cases:
 	Buzzer, Yellow & Green LEDs lights will turn on because the type of seizure is yet to be identified.
 	After roughly 30 seconds, False alarm will be displayed. Green LED light will turn on.
    5. Medical Emergency:
-	Stimulate one of the above seizures and leave for over 5 minutes (program can be very laggy, 6 - 7 minutes will do)
+	Stimulate one of the above seizures and leave for over 5 minutes
 	The Buzzer will turn on and blue and red lights will flash to warn the parents of a medical emergency.
