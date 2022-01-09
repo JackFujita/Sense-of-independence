@@ -51,3 +51,7 @@ Test Cases:
    5. Medical Emergency:
 	Stimulate one of the above seizures and leave for over 5 minutes.
 	The Buzzer will turn on and blue and red lights will flash to warn the parents of a medical emergency.
+	
+This works with the wearable sensor created by Jack Fujita, Lara Al Barbarawi, Scott Berman and Brooke Mazur-Ng.
+
+![alt text](https://github.com/JackFujita/Sense-of-independence/blob/main/Images/Right_ortho.jpg)
