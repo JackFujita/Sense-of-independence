@@ -1,17 +1,17 @@
-# Sense-of-independence
+# Sense-of-independence :stethoscope:	
 ###### Jack Fujita and Lara Al Barbarawi
 
 Python code to be run on Rasperry Pi. Sets up virtual emulator and uses emulator funcitonality to simulate electromyography (EMG) to detect patient tonic and clonic seizures
 
 This computer program will be able to detect the type of seizure, length of seizure and time of seizure, in the presence of one, in infants.
-	- It will detect two main types of seizures; Clonic and Tonic.
-		Clonic Seizure: Jerking/Twitching of the muscles
-		Tonic Seizure: Stiffening of the muscles
-	- The program will write to two different files: 
-		1- raw_data: includes the raw data, rolling average, type of seizure (if occuring).
-		2- seizure details: inlcudes the list of rolling averages of the past 30 seconds, Seizure status (Type of seizure), time of day & length of seizure.
-			This file will be used for detailed analysis of the infants condition. 
-	- If the length of the seizure is greater than 5 minutes (300s), the program warns the parents with a medical emergency.
+- It will detect two main types of seizures; Clonic and Tonic.
+  - Clonic Seizure: Jerking/Twitching of the muscles
+  - Tonic Seizure: Stiffening of the muscles
+- The program will write to two different files: 
+  1. raw_data: includes the raw data, rolling average, type of seizure (if occuring).
+  2. seizure details: inlcudes the list of rolling averages of the past 30 seconds, Seizure status (Type of seizure), time of day & length of seizure.
+     - This file will be used for detailed analysis of the infants condition. 
+- If the length of the seizure is greater than 5 minutes (300s), the program warns the parents with a medical emergency.
 
 Note: Length of seizure can only be determined once the seizure has come to an end.
 Note: Datetime library may need to be installed.
@@ -21,12 +21,12 @@ The program will communicate the output data in the form of four different combi
 
 
 Setting up the emulator:
-	- GPIO18: Buzzer 
-	- GPIO24: Red LED
-	- GPIO25: Yellow LED
-	- GPIO12: Green LED
-	- GPIO16: Blue LED
-	- Sensor: EMG
+- GPIO18: Buzzer 
+- GPIO24: Red LED
+- GPIO25: Yellow LED
+- GPIO12: Green LED
+- GPIO16: Blue LED
+- Sensor: EMG
 
 Note: You will notice that the yellow LED is on. This is because the device is still not connected
 
